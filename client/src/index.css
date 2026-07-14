@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Sora', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  --color-canvas: #FAFAF9;
+  --color-surface: #FFFFFF;
+  --color-surface-raised: #FFFFFF;
+  --color-ink: #14151A;
+  --color-ink-muted: #6B6F76;
+  --color-ink-faint: #9B9EA5;
+  --color-border: #E7E5E1;
+  --color-border-strong: #D6D3CD;
+
+  --color-accent: #362F78;
+  --color-accent-hover: #2A2560;
+  --color-accent-soft: #EDEBFA;
+
+  --color-data-warm: #C2793D;
+  --color-data-warm-soft: #FBEEE1;
+
+  --color-success: #1F7A4D;
+  --color-success-soft: #E6F4EC;
+  --color-danger: #B3412C;
+  --color-danger-soft: #FBEAE6;
+  --color-warning: #A6710B;
+  --color-warning-soft: #FBF1DE;
+
+  --radius-card: 1rem;
+  --radius-control: 0.625rem;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+
+  ::selection {
+    background-color: var(--color-accent-soft);
+    color: var(--color-accent);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+}
+
+@layer utilities {
+  .mono-figure {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.bv-slider {
+  -webkit-appearance: none;
+}
+.bv-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  background: var(--color-accent);
+  border: 2px solid var(--color-surface);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.bv-slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  background: var(--color-accent);
+  border: 2px solid var(--color-surface);
+  cursor: pointer;
+}
+
+.dark {
+  --color-canvas: #0E0F12;
+  --color-surface: #17181C;
+  --color-surface-raised: #1D1E23;
+  --color-ink: #F2F1EE;
+  --color-ink-muted: #A6A9B0;
+  --color-ink-faint: #75777E;
+  --color-border: #2A2B30;
+  --color-border-strong: #383A41;
+  --color-accent: #7A72E0;
+  --color-accent-hover: #8D86E6;
+  --color-accent-soft: #232145;
+  --color-data-warm: #E0A05C;
+  --color-data-warm-soft: #2E2418;
+  --color-success: #4ADE93;
+  --color-success-soft: #123423;
+  --color-danger: #F2917B;
+  --color-danger-soft: #3A1E18;
+  --color-warning: #E3B65C;
+  --color-warning-soft: #362A12;
+}
