@@ -207,40 +207,76 @@ bharatvision
 
 ## 🏠 Dashboard
 
-> Add screenshot
+<img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/6d482cb8-4f3f-4333-960e-1ca59d3f72f3" />
+
+---
+
+## Evaluation Session
+
+<img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/3320bded-3a7c-40c9-8a89-42f0229148f5" />
 
 ---
 
 ## 📝 Prompt Management
 
-> Add screenshot
+<img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/2cdec458-dc54-4107-a576-ed08dd3c2d79" />
+
 
 ---
 
 ## ☁️ Image Upload
 
-> Add screenshot
+<img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/e4047088-03a8-46ee-be95-7676be682f2e" />
 
----
-
-## 👥 Blind Evaluation
-
-> Add screenshot
 
 ---
 
 ## 📈 Analytics
 
-> Add screenshot
+<img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/c99d9365-1c37-44bc-b552-09b9f0d46b02" />
+<img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/7c937bee-8f66-42be-9a4e-286a65af1fc5" />
+
+
 
 ---
 
 ## 🏆 Leaderboard
 
-> Add screenshot
+<img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/dcb47b26-520c-4880-b0d7-8c8df0b59156" />
+
 
 ---
+# 🎥 Project Demo
 
+See BharatVision in action through a complete walkthrough of the platform.
+
+<div align="center">
+
+<a href="https://screenrec.com/share/3LlpZ6DXuC" target="_blank">
+
+<img src="https://img.shields.io/badge/▶️%20Watch%20Project%20Demo-ScreenRec-blue?style=for-the-badge" />
+
+</a>
+
+### 📺 Click the button above to watch the complete project demonstration
+
+The demo includes:
+
+✅ Admin Dashboard
+
+✅ Prompt Management
+
+✅ AI Image Upload
+
+✅ Blind Evaluation
+
+✅ Participant Workflow
+
+✅ Analytics Dashboard
+
+✅ Leaderboard
+
+</div>
 # 🔐 Security
 
 ✔ JWT Authentication
